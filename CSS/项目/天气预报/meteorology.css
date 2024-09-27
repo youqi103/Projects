@@ -1,0 +1,20 @@
+body{
+    font:16x/28px "Microsoft Yahei"
+}
+h1{
+    font-weight:400;
+    text-align:center;
+}
+.gray{
+    color:#B5B5B5;
+    font-size:12px;
+    text-align: center;
+}
+p{
+    text-indent:2em;
+    line-height:2;
+}
+.img{
+    text-align: center;
+}
+

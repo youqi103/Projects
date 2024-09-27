@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>样式表</title>
+    <!-- 内部样式表,就是在html内部写样式，
+     但是单独写到style标签中，不推荐使用-->
+     <style>
+         h1{
+             color:red;
+             font-size:700;
+         }
+     </style>
+     <!-- 外部样式表，就是在html文件外面写一个css文件，然后通过link标签引入 -->
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <h1>内部样式表</h1> 
+   <h2 style="color:blue;font-size:700;">行内样式表</h2>
+    <h3 >外部样式表</h3>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    /* 继承或*权重为0 */
+    div {
+      color: salmon;
+    }
+    /* 元素选择器权重为1 */
+    h5 {
+      color: saddlebrown;
+    }
+    /* 元素选择器权重为1 */
+    h4 {
+      color: black;
+    }
+    /* 类选择器权重为10 */
+    .hh {
+      color: green;
+    }
+    /* ID选择器权重为100 */
+    #lw {
+      color: aqua;
+    }
+    #llw {
+      color: aqua;
+    }
+    #lllw {
+      color: yellow;
+    }
+    /* 啥也不说了，直接开挂!important权重为无穷大 */
+    h1 {
+      color: red !important;
+    }
+  </style>
+  <body>
+    <div>
+      <h6>小老弟继承大佬财产</h6>
+    </div>
+    <div>
+      <h5>小老弟单干了,不需要大佬了</h5>
+    </div>
+    <div>
+      <h4 class="hh">小老弟打不过青龙帮,被吞并了</h4>
+    </div>
+    <div>
+      <h3 id="lw" class="hh">小老弟闯荡了几年终于有了自己的名号-老王</h3>
+    </div>
+    <!-- 行内样式权重为1000 -->
+    <div>
+      <h2 id="llw" style="color: chocolate">可是没想到，小老弟被被刺了</h2>
+    </div>
+    <div>
+      <h1 id="lllw">下一世，小老弟归来并化名为龙王。不装了，直接开挂。</h1>
+    </div>
+  </body>
+</html>

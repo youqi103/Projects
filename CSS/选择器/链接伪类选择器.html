@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- 要按照顺序写，否则可能不起作用 -->
+    <!-- 巧计lv宝宝hao -->
+    <!-- 因为a链接具有默认样式，实际工作中需要单独指定样式 -->
+    <style>
+      /* 未访问链接的颜色 */
+      a:link {
+        color: #333;
+        /* 取消下划线 */
+        text-decoration: none;
+      }
+      /* 访问过的链接的颜色 */
+      a:visited {
+        color: orange;
+      }
+      /* 鼠标悬停的链接的颜色 */
+      a:hover {
+        color: red;
+      }
+      /* 正在点击的链接的颜色 */
+      a:active {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="#">小猪佩奇</a>
+  </body>
+</html>

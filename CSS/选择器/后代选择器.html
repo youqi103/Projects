@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>复合选择器</title>
+    <style>
+      /* 父类和子类用空格隔开 */
+      /* 儿子、孙子后辈都会被选中 */
+      /* 后代选择器 */
+      ul li {
+        color: aqua;
+      }
+      ul li a {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li>五嗨哟</li>
+      <li>好羡慕</li>
+      <li>哦哦我</li>
+      <li>
+        <a href="#">我在这</a>
+      </li>
+    </ul>
+
+    <ol>
+      <li>woe</li>
+      <li>的时间</li>
+      <li>大连控股</li>
+      <a href="#">我在这</a>
+    </ol>
+  </body>
+</html>

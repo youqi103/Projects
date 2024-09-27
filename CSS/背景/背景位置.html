@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        width: 300px;
+        height: 300px;
+        background-image: url(/1.jpg);
+        color: yellow;
+        background-repeat: no-repeat;
+        background-color: aqua;
+      }
+      p {
+        background-image: url(/1.jpg);
+        width: 300px;
+        height: 300px;
+        background-repeat: no-repeat;
+        background-color: greenyellow;
+        background-position: 20px 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 与background-position:center left;等效。 -->
+    <!-- 谁前谁后都一样 -->
+    <div style="background-position: left">
+      当只有一个方位词时，另一个方位词默认为center。
+    </div>
+    <p>X轴偏移20px，Y轴偏移40px。</p>
+    <div style="background-position: left 40px">混合使用</div>
+  </body>
+</html>

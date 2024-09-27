@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // 创建数组
+      // let arr = [1, 2, 3, 4, 5];
+      let arr = new Array(1, 2, 3, 4, 5);
+      //往后添加元素,并且返回新的长度
+      arr.push(6);
+      // 往前添加元素,并且返回新的长度
+      arr.unshift(0);
+      // 删除最后一个元素,并且返回删除的元素
+      arr.pop();
+      // 删除第一个元素,并且返回删除的元素
+      arr.shift();
+      //   删除指定元素,splice(conf:起始索引,count:删除个数);
+      arr.splice(2, 1);
+      // 数组长度
+      console.log("数组长度:" + arr.length);
+      // 数组元素
+      console.log(arr);
+      // 数组排序
+      arr.sort();
+    </script>
+  </body>
+</html>

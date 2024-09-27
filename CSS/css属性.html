@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .block{
+            width:100px;
+            height: 150px;
+        }
+        .inline{
+            
+            color:red;
+        }
+        .inline-block{
+            width:100px;
+        }
+        .div-inline{
+            display: inline;
+            color: purple;
+        }
+        .span-inline-block{
+            display: inline-block;
+            width:100px;
+            height:200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="block">
+        这是一个块级元素
+    </div>
+    <span class="inline">
+        这是一个行内元素
+    </span>
+    <img src="/1.jpg" alt="" class="inline-block">
+     <div class="div-inline">
+        这是一个div转换成行内元素
+     </div>
+     <span class="span-inline-block">
+         这是一个span转换成行内块元素
+     </span>
+</body>
+</html>
